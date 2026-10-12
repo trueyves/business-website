@@ -8,8 +8,8 @@
  * Until an endpoint is set, the forms show a message asking visitors to call or email.
  */
 const FORM_ENDPOINTS = {
-  quote: "",
-  careers: ""
+  quote: "https://usebasin.com/f/cdf0b569b39b",
+  careers: "https://usebasin.com/f/451ab0d82f70"
 };
 const CONTACT_PHONE = "224-283-4412";
 const CONTACT_EMAIL = "info@windycityps.com";
