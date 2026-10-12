@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#1D3A2C"/><g transform="translate(4 3) scale(.875)" color="#E6DCC8">
+  <defs>
+    <mask id="wcps-brace">
+      <rect width="64" height="64" fill="#fff"/>
+      <path d="M35.9 52.5 44 41M44.1 52.5 35.9 41M36.8 39.5 43.2 30.5M43.2 39.5 36.8 30.5" stroke="#000" stroke-width="0.9"/>
+    </mask>
+  </defs>
+  <path d="M10 58V28a22 22 0 0 1 44 0v30" stroke="currentColor" stroke-width="1.6"/>
+  <path d="M5 58h54" stroke="currentColor" stroke-width="1.6"/>
+  <path fill="currentColor" d="M18 57V36h3v-8h2v-8h1v-7h.8v7h.4v-7h.8v7h1v8h2v8h3v21z"/>
+  <path fill="currentColor" mask="url(#wcps-brace)" d="M35 57l2-35h1.2v-8h.8v8h2v-8h.8v8H43l2 35z"/>
+  <path fill="currentColor" d="M13 57V45h3.5v12zM47.5 57V41H51v16z"/>
+  <path fill="currentColor" d="M32.00 11.60L32.77 13.66L34.94 13.30L33.55 15.00L34.94 16.70L32.77 16.34L32.00 18.40L31.23 16.34L29.06 16.70L30.45 15.00L29.06 13.30L31.22 13.66Z"/>
+</g></svg>
