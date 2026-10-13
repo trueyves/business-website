@@ -18,8 +18,12 @@ const MAX_RESUME_MB = 10;
 const root = document.documentElement;
 
 /* ---------- Hero load sequence ---------- */
+let heroStarted = false;
 function startHero() {
-  requestAnimationFrame(() => requestAnimationFrame(() => root.classList.add("is-loaded")));
+  if (heroStarted) return;
+  heroStarted = true;
+  void root.offsetWidth; // commit the starting state so the transition runs
+  root.classList.add("is-loaded");
 }
 const heroImg = document.querySelector(".hero-media img");
 if (heroImg && !heroImg.complete) {
